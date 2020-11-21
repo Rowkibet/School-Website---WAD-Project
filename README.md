@@ -1,1 +1,1 @@
-# School-Website---WAD-Project
+# School Website - WAD Project
