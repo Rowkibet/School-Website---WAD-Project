@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link href="fontawesome/css/all.min.css"  rel="stylesheet">
     <title>Meadows University</title>
     <style>
         .credit-logo {
@@ -14,58 +15,160 @@
 </head>
 <body>
     <!-- Header Section -->
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <img src="images/logo.jpg" alt="School Logo">
-            </div>
-    
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Admissions</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Faculty & Schools</a></li>
-                    <li><a href="#">Login</a></li>
-                </ul>
-            </nav>
+    <header id="home">
+        <div class="logo-header">
+            <img src="images/logo.jpg" alt="School Logo">
+            <h1>Welcome to Meadows University</h1>
         </div>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#footer">Contact Us</a></li>
+        </ul>
+    </nav>
     <!-- //Header Section -->
 
     <div class="container">
         <!-- About Us -->
-        <div class="about-us" style="margin: 0 100px 0 100px">
-            <h2 style="text-align: center;">About Us</h2>
-            <p style="text-align: center;">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ut at molestias laborum repellat. Eveniet modi nesciunt molestiae, suscipit illo pariatur perspiciatis deserunt, sapiente voluptatum deleniti voluptatem eligendi iusto hic.
-                Perferendis voluptatibus, fugiat exercitationem sit excepturi vitae, facere id temporibus doloribus esse dolor adipisci. Non nulla, neque aliquid beatae cum in ratione blanditiis corrupti omnis unde exercitationem libero et nihil? 
-                <br><br>
-
-                Ex possimus eveniet cupiditate repellat quam vel esse commodi dolorum voluptatum. Earum quisquam, facere illum tempore saepe in iste voluptatibus, officia fuga dignissimos corporis fugiat expedita sint cupiditate voluptatem molestias!
-                Accusamus quia quaerat delectus libero aperiam, atque ipsum cum eveniet distinctio. Totam facere aut possimus aliquam, autem soluta obcaecati vero quibusdam minus nemo rem distinctio cumque perferendis, nulla tempore laborum?
-                Nam numquam exercitationem molestiae expedita modi incidunt alias quidem voluptatibus voluptates reiciendis eaque, natus dolorem debitis laboriosam in quaerat similique sit. Dolore dicta accusamus delectus consequatur tempora enim recusandae aliquam.
-            </p>
+        <div class="about-us" id="about-us">
+            <div class="about-us-wrapper">
+                <h2>About Us</h2>
+                <h3>Mission Statement</h3>
+                <p>
+                    To empower students to strive for academic excellence
+                    and create an environment for them to be able to come up
+                    with innovations that would help the society.
+                </p>
+                <h3>Vision Statement</h3>
+                <p>
+                    To be the leading university in offering world class courses on campus and on the web.
+                </p>
+                <h3>Our Motto</h3>
+                <p>A Tradition of Excellence</p>
+            </div>
         </div>
         <!-- //About Us -->
 
-        <!-- Our Services -->
-        <div class="services">
-            <div class="service"></div>
-            <div class="service"></div>
-            <div class="service"></div>
+        <!-- Our Courses -->
+        <div class="courses" id="courses">
+            <h2>Our Courses</h2>
+            <div class="courses-wrapper">
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/course-coding.jpg" alt="course">
+                    </div>
+                    <div class="text">
+                        <h3>Software Development</h3>
+                        <a href="#" class="btn">View Course</a>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/course-cybersecurity.jpg" alt="course">  
+                    </div>
+                    <div class="text">
+                        <h3>Cyber Security</h3>
+                        <a href="#" class="btn">View Course</a>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/course-project management.jpg" alt="course">
+                    </div>
+                    <div class="text">
+                        <h3>Project Management</h3>
+                        <a href="#" class="btn">View Course</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- //Our Services -->
+        <!-- //Our courses -->
 
         <!-- The Team -->
-        <div class="team">
-            <div class="team-member"></div>
-            <div class="team-member"></div>
-            <div class="team-member"></div>
+        <div class="team" id="team">
+            <h2>Our Team</h2>
+            <p>Some of our featured lecturers</p>
+            <div class="team-wrapper">
+                <div class="team-member">
+                    <div class="team-image">
+                        <img src="images/Lecturer-1.jpg" alt="photo of a lecturer">
+                    </div>
+                    <div class="role">
+                        <h3>Jane Michealson</h3>
+                        <h3>Back-end Development</h3>
+                        <a href="#" class="btn">View Profile</a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="team-image">
+                        <img src="images/Lecturer-2.jpg" alt="photo of a lecturer">
+                    </div>
+                    <div class="role">
+                        <h3>Nicholas Hoffman</h3>
+                        <h3>Cyber Security</h3>
+                        <a href="#" class="btn">View Profile</a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="team-image">
+                        <img src="images/Lecturer-3.jpg" alt="photo of a lecturer">
+                    </div>
+                    <div class="role">
+                        <h3>Veerle Pieters</h3>
+                        <h3>Front-end Development</h3>
+                        <a href="#" class="btn">View Profile</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- //The Team -->
 
-        <footer>
+        <footer id="footer">
+            <div class="footer-wrapper">
+                <div class="address">
+                    <h2> Address </h2> <br>
+                    <p>Meadows University,</p>
+                    <p>Nairobi, Kenya</p>
+                    <div class="contact">
+                        <p><i class="fas fa-phone"></i> &nbsp; 123-456-789</p>
+                        <p><i class="fas fa-envelope"></i> &nbsp; info@meadows.edu</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="quick-links">
+                    <h2> Quick Links</h2>
+                        <ul>
+                            <li><a href="#about-us">About Us</a></li>
+                            <li><a href="#courses">Courses</a></li>
+                            <li><a href="#team">Team</a></li>
+                        </ul>
+                </div>
+
+                <div class="contact-us">
+                    <h2> Contact Us </h2> <br>
+                        <input type="text" name="email" placeholder="Your email address..." class="contact-input"><br>
+                        <textarea rows="4" name="message" placeholder="Your message..." class="contact-input"></textarea><br>
+                        <button type="submit" class="btn send-btn">
+                            <i class="fas fa-envelope"></i>
+                            Send
+                        </button>
+                </div>
+            </div>
+
+            <div class="copyright-footer">
+                &copy;2020 Meadows University
+            </div>
+
             <div class="credit-logo">
                 Logo created by <a href="https://www.designevo.com/logo-maker/" title="Free Online Logo Maker">DesignEvo logo maker</a>
             </div>
